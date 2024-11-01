@@ -28,7 +28,7 @@ jobs:
       - name: Install Dependencies
         run: |
           echo "gem 'jekyll', '~> 4.0'" >> Gemfile
-          echo "gem 'minima', '~> 3.0'" >> Gemfile
+          echo "gem 'minima', '~> 2.5.2'" >> Gemfile
           bundle install
       - name: Build Site
         run: bundle exec jekyll build --destination ./_site
