@@ -15,7 +15,7 @@ description: "Some short description of your blog can go here." # This will show
 # youtube_username: username
 # googleplus_username: +username
 
-remote_theme: jekyll/minima
+theme: minima
 minima:
   skin: dark
 
